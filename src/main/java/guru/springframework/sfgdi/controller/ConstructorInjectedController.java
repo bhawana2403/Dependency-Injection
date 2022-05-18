@@ -9,7 +9,7 @@ public class ConstructorInjectedController {
     //We don't need to specify explicitly @Autowired
     private final GreetingsService greetingsService;
 
-    public ConstructorInjectedController(@Qualifier("contructorGreetingService") GreetingsService greetingsService) {
+    public ConstructorInjectedController(@Qualifier("constructorGreetingService") GreetingsService greetingsService) {
         this.greetingsService = greetingsService;
     }
     public String getGreetings(){
