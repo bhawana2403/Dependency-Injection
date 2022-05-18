@@ -9,9 +9,8 @@ import guru.springframework.sfgdi.controller.MyController;
 import guru.springframework.sfgdi.controller.PropertyInjectedController;
 import guru.springframework.sfgdi.controller.SetterInjectedController;
 import guru.springframework.sfgdi.controller.PetController;
-import org.springframework.context.annotation.ComponentScan;
 
-@ComponentScan(basePackages = {"guru.springframework.sfgdi","com.springframework.pets"})
+
 @SpringBootApplication
 public class SfgDiApplication {
     public static void main(String[] args){
